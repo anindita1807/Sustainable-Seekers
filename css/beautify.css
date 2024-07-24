@@ -40,8 +40,18 @@ html::-webkit-scrollbar{
     border-radius: 5rem;
 }
 
-body{
-    background: var(--bg);
+body {
+  background: linear-gradient(
+    to left,
+    #003C43 15%, 
+    #135D66 50%, 
+    #77B0AA 75%, 
+    #A6CF98 100% 
+  );
+  background-size: 100% 100px;
+  
+  height: 100vh;
+  margin: 0;
 }
 
 section{
@@ -134,7 +144,7 @@ section{
 .home .content h3{
     font-size: 6rem;
     text-transform: uppercase;
-    color:#fff;
+    color:#E8E8CC;
 }
 
 .home .content p{
@@ -142,7 +152,7 @@ section{
     font-weight: lighter;
     line-height: 1.8;
     padding: 1rem 0;
-    color:#eee;
+    color:#E8E8CC;
 }
 
 
@@ -185,8 +195,8 @@ section{
 .bottles .box-container .box{
     text-align: center;
     border:var(--border);
-    border-color: rgb(146, 101, 64);
-    border-width: 1cap;
+    border-color:#0f1010;
+    border-width: 0.5cap;
     padding: 2rem; 
   }
   .bottles .box-container .box:hover{
@@ -204,7 +214,7 @@ section{
     margin: 3rem;
   }
   .bottles .box-container .box .icons a:hover{
-    background:var(--main-color);
+    background-color:#0d1c02;
   }
 
   .bottles .box-container .box .image{
@@ -225,7 +235,7 @@ section{
   }
   .bottles .box-container .box .content .heart i{
     font-size: 1.7rem;
-    color: var(--main-color);
+    color: #3EC70B;
   }
   
   .fas.fa-eye {
@@ -241,7 +251,7 @@ section{
     text-decoration-line: var(--border);
     padding: 1.5rem;
     margin-bottom: 1.5rem;
-    font-weight: bold;
+    
   }
 
   .bags .box-container{
