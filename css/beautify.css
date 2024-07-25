@@ -98,7 +98,7 @@ section{
 }
 
 .header .logo img{
-    height: 8rem;
+    height: 10rem;
 }
 
 .header .navbar a{
@@ -144,7 +144,9 @@ section{
 .home .content h3{
     font-size: 6rem;
     text-transform: uppercase;
-    color:#E8E8CC;
+    color: #E8E8CC;
+     ;
+    
 }
 
 .home .content p{
@@ -195,8 +197,9 @@ section{
 .bottles .box-container .box{
     text-align: center;
     border:var(--border);
-    border-color:#0f1010;
+    border-color: #0f1010;
     border-width: 0.5cap;
+   
     padding: 2rem; 
   }
   .bottles .box-container .box:hover{
@@ -214,7 +217,7 @@ section{
     margin: 3rem;
   }
   .bottles .box-container .box .icons a:hover{
-    background-color:#0d1c02;
+    background:var(--main-color);
   }
 
   .bottles .box-container .box .image{
@@ -232,10 +235,12 @@ section{
 
   .bottles .box-container .box .content .heart{
     padding: 1.5rem;
+    
   }
   .bottles .box-container .box .content .heart i{
     font-size: 1.7rem;
     color: #3EC70B;
+    
   }
   
   .fas.fa-eye {
@@ -263,8 +268,8 @@ section{
 .bags .box-container .box{
     text-align: center;
     border:var(--border);
-    border-color: rgb(146, 101, 64);
-    border-width: 1cap;
+    border-color: #0f1010;
+    border-width: 0.5cap;
     padding: 2rem; 
   }
   .bags .box-container .box:hover{
@@ -318,8 +323,8 @@ section{
 .straws .box-container .box{
     text-align: center;
     border:var(--border);
-    border-color: rgb(146, 101, 64);
-    border-width: 1cap;
+    border-color: #0f1010;
+    border-width: 0.5cap;
     padding: 2rem; 
   }
   .straws .box-container .box:hover{
